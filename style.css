@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+span{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ccc;
+}
+a{
+    color: white;
+    background-image: linear-gradient(45deg, orange, tomato);
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 35px;
+}
+section{
+    display: flex;
+
+}
+.div-1{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+#image-sizing{
+    width: 40%;
+}
+#image-sizing2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.background-image{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.recipi-div{
+    text-align: center;
+}
+.part-section{
+    
+}
+
+
+
+
+/*======== Before Footer Side ========*/
+
+.before-footer{
+     display: flex;
+     margin: 10px;
+     
+}
+
+
+/*======== Footer Section ========*/
+
+.footer-section{
+    background-color:cadetblue;
+    text-align: center;
+}
+.footer-section span{
+    color: tomato;
+}
