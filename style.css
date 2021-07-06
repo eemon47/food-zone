@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-    /*=============== Header Section ===============*/
+    /* =============== Header Section =============== */
 
 span{
     color: orange;
@@ -39,40 +39,86 @@ a{
 }
 
 
-    /*=============== Body Section ===============*/
+    /* =============== Body Section =============== */
 
 
 .body-section{
-   /* background-image: url(images/background.png);
-    background-repeat: no-repeat; */
+    background-image: url(images/background.png);
+    background-repeat: no-repeat; 
     display: flex;
     margin-top: 40px;
 
 }
-.body-section img{
-    height: 400px;
+.inside-body{
+    width: 50%;
     padding-left: 200px;
 }
-.recipi-div{
-    text-align: center;
-}
-.part-section{
+.inside-body img{
+    width: 50%;
+    
+    padding-top: 30px;
     
 }
 
 
-
-
-    /*=============== Before Footer Section ===============*/
-
-.before-footer{
-     display: flex;
-     margin: 10px;
-     
+.recipi-section{
+    text-align: center;
+}
+.recipi-body{
+    padding-top: 25px;
+}
+.recipi-body h2{
+    font-weight: bold;
+    color:lightslategray;
+}
+.title-section{
+    display: flex;
+    width: 90%;
+    padding-left: 4%;
+    
+}
+.title-div{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 50px orange;
 }
 
 
-    /*=============== Footer Section ===============*/
+
+
+
+    /* =============== Before Footer Section =============== */
+
+.social-section{
+     
+     box-shadow: 10px 10px 50px orange;
+     margin-left: 70px;
+     margin-right: 70px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     border-radius: 10px;
+     padding-left: 40px;
+     
+     
+}
+.social-inside{
+    
+    display: flex;
+    
+}
+#youtube{
+    padding-left: 100px;
+}
+#instagram{
+    padding-left: 200px;
+}
+#dribble{
+    padding-left: 250px;
+}
+
+    /* =============== Footer Section =============== */
 
 .footer-section{
     background-color:black;
