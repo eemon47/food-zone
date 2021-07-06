@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+    /*=============== Header Section ===============*/
+
 span{
     color: orange;
 }
@@ -17,29 +20,38 @@ a{
     padding: 15px 25px;
     border-radius: 35px;
 }
-section{
+.header-section{
     display: flex;
 
 }
-.div-1{
+.header-left{
     width: 40%;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 2%;
-    float: left;
+    padding-top: 10%;
+    
 }
-#image-sizing{
-    width: 40%;
+.header-section img{
+    width: 90%;
+    height: 90%;
+    padding-left: 8%;
+    padding-top: 5%;
 }
-#image-sizing2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.background-image{
-    background-image: url(images/background.png);
-    background-repeat: no-repeat;
+
+
+    /*=============== Body Section ===============*/
+
+
+.body-section{
+   /* background-image: url(images/background.png);
+    background-repeat: no-repeat; */
     display: flex;
+    margin-top: 40px;
+
+}
+.body-section img{
+    height: 400px;
+    padding-left: 200px;
 }
 .recipi-div{
     text-align: center;
@@ -51,7 +63,7 @@ section{
 
 
 
-/*======== Before Footer Side ========*/
+    /*=============== Before Footer Section ===============*/
 
 .before-footer{
      display: flex;
@@ -60,12 +72,18 @@ section{
 }
 
 
-/*======== Footer Section ========*/
+    /*=============== Footer Section ===============*/
 
 .footer-section{
-    background-color:cadetblue;
+    background-color:black;
     text-align: center;
+    padding-top: 15px;
+    height: 180px;
+    color:gray;
 }
 .footer-section span{
     color: tomato;
+}
+.footer-section h6{
+    color: white;
 }
